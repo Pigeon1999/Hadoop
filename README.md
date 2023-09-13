@@ -1,6 +1,9 @@
 # Hadoop
 하둡 공부 정리
 
+# 개발환경 
+java-1.8
+
 # 하둡 설치 방법 
 #### 해당 블로그들을 참고 했습니다. 
 https://codedragon.tistory.com/9582  
