@@ -2,7 +2,9 @@
 하둡 공부 정리
 
 # 하둡 설치 방법 
-#### 해당 블로그를 참고 했습니다. (https://codedragon.tistory.com/9582)
+#### 해당 블로그들을 참고 했습니다. 
+https://codedragon.tistory.com/9582  
+https://gist.github.com/vorpal56/5e2b67b6be3a827b85ac82a63a5b3b2e
 1. 아파치 하둡 사이트에서 다운로드 받습니다. binary download (https://hadoop.apache.org/)
 2. 다운로드 받은 파일을 압축해제 합니다. tar.gz파일 입니다.  
 #### [HDFS configurations]
