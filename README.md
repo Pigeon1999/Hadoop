@@ -8,6 +8,8 @@ java-1.8
 #### 해당 블로그들을 참고 했습니다. 
 https://codedragon.tistory.com/9582  
 https://gist.github.com/vorpal56/5e2b67b6be3a827b85ac82a63a5b3b2e
+https://github.com/cdarlint/winutils --> hadoop.dll 파일 다운로드 
+https://github.com/steveloughran/winutils/blob/master/hadoop-2.7.1/bin/winutils.exe --> winutils.exe 파일 다운로드 
 1. 아파치 하둡 사이트에서 다운로드 받습니다. binary download (https://hadoop.apache.org/)
 2. 다운로드 받은 파일을 압축해제 합니다. tar.gz파일 입니다.  
 #### [HDFS configurations]
@@ -155,15 +157,16 @@ hadoop namenode -format
 ```
 hdfs namenode -format
 ```
-12. HDFS 데몬을 실행합니다. 실행시 두개의 명령어 창이 오픈되는데, 각각 namenode와 datanode입니다.
+12. hadoop.dll 파일과 winutils.exe 파일을 다운로드해서 bin폴더에 넣습니다. 
+13. HDFS 데몬을 실행합니다. 실행시 두개의 명령어 창이 오픈되는데, 각각 namenode와 datanode입니다.
 ```
 %HADOOP_HOME%\sbin\start-dfs.cmd
 ```
-13. YARN 데몬을 실행합니다. 실행하면 총 4개의 cmd창이 실행됩니다. 각각 namenode, datanode, YARN resource manager, YARN node manager입니다.
+14. YARN 데몬을 실행합니다. 실행하면 총 4개의 cmd창이 실행됩니다. 각각 namenode, datanode, YARN resource manager, YARN node manager입니다.
 ```
 %HADOOP_HOME%\sbin\start-yarn.cmd
 ```
 ![image](https://github.com/Pigeon1999/Hadoop/assets/98893114/a9d737c2-5b8b-4ce2-93e4-ae50760a215d)
 
 #### [Resource manager 오픈]
-14. YARN 웹사이트를 통해서 job status를 확인할 수 있습니다. 
+15. YARN 웹사이트를 통해서 job status를 확인할 수 있습니다. 
