@@ -169,4 +169,5 @@ hdfs namenode -format
 ![image](https://github.com/Pigeon1999/Hadoop/assets/98893114/a9d737c2-5b8b-4ce2-93e4-ae50760a215d)
 
 #### [Resource manager 오픈]
-15. YARN 웹사이트를 통해서 job status를 확인할 수 있습니다. 
+15. YARN 웹사이트를 통해서 job status를 확인할 수 있습니다. (http://localhost:8088)
+    
