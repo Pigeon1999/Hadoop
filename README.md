@@ -166,7 +166,9 @@ hdfs namenode -format
 ```
 %HADOOP_HOME%\sbin\start-yarn.cmd
 ```
-![image](https://github.com/Pigeon1999/Hadoop/assets/98893114/a9d737c2-5b8b-4ce2-93e4-ae50760a215d)
+![image](https://github.com/Pigeon1999/Hadoop/assets/98893114/80d89459-60ae-4e95-9f0e-f635e7fbe3bd)  
+* nodemanager는 실시간으로 출력
+
 
 #### [Resource manager 오픈]
 15. YARN 웹사이트를 통해서 job status를 확인할 수 있습니다. (http://localhost:8088)
