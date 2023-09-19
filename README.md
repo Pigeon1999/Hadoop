@@ -1,6 +1,10 @@
 # Hadoop
 하둡 공부 정리
 
+# 참고 교재 
+- 하둡 완벽 가이드 (한빛미디어)  
+데이터 출처 : (https://github.com/tomwhite/hadoop-book/)
+
 # 개발환경 
 window 10
 java-1.8
