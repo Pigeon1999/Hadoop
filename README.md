@@ -17,7 +17,7 @@ java-1.8
 # 하둡 설치 방법 
 #### 해당 블로그들을 참고 했습니다. 
 https://codedragon.tistory.com/9582  
-https://gist.github.com/vorpal56/5e2b67b6be3a827b85ac82a63a5b3b2e
+https://gist.github.com/vorpal56/5e2b67b6be3a827b85ac82a63a5b3b2e  
 https://github.com/cdarlint/winutils --> hadoop.dll 파일 다운로드 
 https://github.com/steveloughran/winutils/blob/master/hadoop-2.7.1/bin/winutils.exe --> winutils.exe 파일 다운로드 
 1. 아파치 하둡 사이트에서 다운로드 받습니다. binary download (https://hadoop.apache.org/)
