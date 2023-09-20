@@ -181,5 +181,6 @@ hdfs namenode -format
 
 
 #### [Resource manager 오픈]
-15. YARN 웹사이트를 통해서 job status를 확인할 수 있습니다. (http://localhost:8088)
-    
+15. YARN 웹사이트를 통해서 job status를 확인할 수 있습니다.
+ - resourcemanager (http://localhost:8088)
+ - hdfs (http://localhost:9870) 
