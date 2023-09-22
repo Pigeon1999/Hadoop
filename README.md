@@ -188,3 +188,14 @@ hdfs namenode -format
  - resourcemanager (http://localhost:8088)
  - hdfs (http://localhost:9870)
 
+#### [Hadoop Test]
+17. 하둡이 정상적으로 실행되는지 확인하기 위해서 하둡내에 있는 jar파일을 이용해 예제 맵리듀스 작업을 실행합니다.
+```
+# 실행 코드 (모든 환경 공통)
+hadoop jar %HADOOP_HOME%\share\hadoop\mapreduce\hadoop-mapreduce-examples-*.jar pi 2 5
+```
+결과는 이와같이 출력됩니다. 
+```
+# 실행 결과
+Estimated value of Pi is 3.xxxxxx
+```
