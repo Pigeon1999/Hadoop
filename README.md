@@ -177,11 +177,14 @@ hdfs namenode -format
 %HADOOP_HOME%\sbin\start-yarn.cmd
 ```
 ![image](https://github.com/Pigeon1999/Hadoop/assets/98893114/80d89459-60ae-4e95-9f0e-f635e7fbe3bd)  
-* nodemanager는 실시간으로 출력
+* nodemanager는 실시간으로 출력  
 
+15. jps 명령어로 실행되고 있는지 확인 가능합니다.  
+![image](https://github.com/Pigeon1999/Hadoop/assets/98893114/b0c7b218-466b-4bf9-a104-5174d1d2c805)  
 
-#### [Resource manager 오픈]
-15. YARN 웹사이트를 통해서 job status를 확인할 수 있습니다.
+#### [Hadoop Port Open]
+16. YARN 웹사이트를 통해서 job status를 확인할 수 있습니다.
  - data node (http://localhost:9864)
  - resourcemanager (http://localhost:8088)
- - hdfs (http://localhost:9870) 
+ - hdfs (http://localhost:9870)
+
